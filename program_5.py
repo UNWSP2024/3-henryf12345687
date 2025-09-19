@@ -4,7 +4,7 @@
 # Also tax is 7%. 
 # Write a program the inputs the type of hot dog wanted and optional toppings.  
 # The program then displays the hot dog cost, tax and total cost. 
-# Code
+# Code1
 def hotdogs_sales():
     # Get hot dog type
     hotdog = input("What hot dog would you like? ")
