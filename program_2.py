@@ -4,12 +4,16 @@
 # If the person is older than 1 year, but younger than 13 years, it should display "child".
 # If the person is at least 13 years old, but less than 20 years old, it should display "teenager".
 # If the person is at least 20 year old, it should display "adult".
-# Hello
 def categorize_age(age):
-    ageCategory = "TBD"
-    ######################
-    # WRITE YOUR CODE HERE
-    ######################
+    ageCategory = age
+    if age <= 1:
+        print ("Infant")
+    elif age > 1 and age < 12:
+        print ("Child")
+    elif age >= 13 and age < 20:
+        print ("Teenager")
+    else:
+        print ("Adult") 
 
 
     return ageCategory
